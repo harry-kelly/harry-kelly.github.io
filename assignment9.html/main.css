@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 70rem;
+  margin-left: 20 px;
+  margin-right: 20 px;
+}
+
+header {
+  background-color: darkgrey;
+  color:white;
+  font-size: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.mainimg {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-family: 'Dancing Script', Times New Roman;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Quicksand', Times New Roman;
+  font-style: italic;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Oswald', Noto Sans;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-family: 'Josefin Sans', Times New Roman;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.otherimg {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+html {
+  margin-left: 30px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 90%;
+  }
+}
+
